@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>RandomAI</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.11.6"></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <h1>RandomAI</h1>
+    <hr>
+    <button class="button" id="output">00</button>
+    <button class="button" onclick="reload()">reload</button>
+    <h3>The generated random numbers are constantly checked by a linear regression model to remove any patterns in the
+        generated numbers
+    </h3>
+
+    <button onclick="train()">train</button>
+
+    <script defer src="script.js"></script>
+
+</body>
+
+</html>
